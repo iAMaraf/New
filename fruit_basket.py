@@ -1,9 +1,8 @@
 #!/usr/bin/python3
-
-fruit_basket = [apple, orange, banana, pear, plum]
+def fruit_basket():
+ fruit_basket =[apple, orange, banana, pear, plum]
 guessed_fruit = input ("Guess a fruit: ")
-
-if guessed_fruit == [apple, orange, banana, pear, plum]:
+if set('apple, orange, banana, pear, plum'):
     print ("Correct!")
-    Else:
-        print ("Guess again")
+else:
+    print ("Guess again")
